@@ -45,17 +45,26 @@ public class Main {
 //        for(Carro carro: carros) {
 //            carro.desligar();
 //        }
+//
+//        Pessoa gabriel = new Pessoa();
+//        gabriel.nome = "Gabriel";
+//        gabriel.sobrenome = "Melo Vieira";
+//        gabriel.cpf = "123.456.789-10";
+//        gabriel.rg = "12345";
+//        gabriel.dataNascimento = LocalDate.of(2006, 8, 2);
+//        gabriel.telefones[0] = "48 9999-9999";
+//        gabriel.telefones[1] = "48 8888-8888";
+//
+//        gabriel.imprimirValores();
 
-        Pessoa gabriel = new Pessoa();
-        gabriel.nome = "Gabriel";
-        gabriel.sobrenome = "Melo Vieira";
-        gabriel.cpf = "123.456.789-10";
-        gabriel.rg = "12345";
-        gabriel.dataNascimento = LocalDate.of(2006, 8, 2);
-        gabriel.telefones[0] = "48 9999-9999";
-        gabriel.telefones[1] = "48 8888-8888";
-
-        gabriel.imprimirValores();
+        public static void criarAnimal(){
+            Animal animal = new Animal();
+            animal.dono = "a";
+            animal.definirRaca("aa");
+            animal.definirRaca("Nelore");
+            System.nomeRaca = animal.obterNomeRaca();
+            System.out.println("Nome: " + nomeRaca);
+        }
 
     }
 }
